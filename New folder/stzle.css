@@ -1,6 +1,388 @@
 
+body{ 
+ 	background-color: white;
+ }
+ #header{
+ 	position: fixed;
+ 	top:0;
+ 	z-index: 1001;
+ }
 .header{
 	background-color: grey;
 	width:960px;
 	height:40px;
+	margin: 0;
+
+	
+
 }
+
+.menu li{
+	height: 40px;
+	display: inline-block;
+    position: relative;
+    margin: 0px;
+    }
+.menu{
+	height: 40px;
+	float: right;
+	position: relative;
+	margin: 0px;
+	}
+.menu a{
+	text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "Segoe UI",Arial,sans-serif;
+    height: 40px;
+    width: 90px;
+    display: table-cell; 
+    position: relative;
+    margin: 0px; 
+    text-indent: +10px;
+    vertical-align: middle; 
+}
+.menu li:last-child {
+	padding-left: 115px;
+
+}
+.menu a:hover {
+ 	background-color: black;
+ 	font-size: 18px;
+ 	font-weight: bold;
+ 	color: grey;
+ }
+.icon{
+	background: url(large.png);
+	text-indent: -9999px;
+	margin: 0;
+    height: 40px;
+}
+.ab{
+	height: 40px;
+    margin: 0px;
+	position: relative;		
+}
+
+
+
+.banner {
+	background: url(mag.jpg);
+	height: 300px;
+	width: 960px;
+	margin: 0;
+	position: relative;
+	margin: 40px 0px 0px 0px;
+}
+.banner .as:hover{
+	bottom: 15px;
+}
+.as {
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: cursive;
+	color: white;
+	text-decoration: none;
+	position: relative;
+	
+}
+.banner h1{
+	position: relative;
+	left: 20px;
+	top: 180px;
+}
+.banner h1 p:last-child {
+	color: lightgrey;
+}
+.content h1{
+	padding: 60px 0px 0px 0px;
+    text-align: center;
+    font-family: "Segoe UI",Arial,sans-serif;
+    letter-spacing: 4px;
+    font-weight: 400;
+    margin: 0px;
+}
+.content h2{
+    padding: 15px 0px 0px 0px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: gray;
+}
+.content p {
+	width: 800px;
+	position: relative;
+	font-family: "Lato", sans-serif;
+	font-size: 15px;
+    line-height: 1.5;
+	left: 80px;
+}
+
+.members ul {
+	position: relative;
+	padding-top:  35px;
+}
+
+.members li{
+	list-style: none;
+	display: inline-block;
+	width: 200px;
+	height: 133px;
+}
+.members li:nth-child(1){background: url(Reynolds.jpg);}
+.members li:nth-child(2){background: url(Wayne.jpg);}
+.members li:nth-child(3){background: url(ben.jpg);}
+.members li:nth-child(4){background: url(Daniel.jpg);}
+
+.names {
+    padding-bottom: 65px;
+}
+.names li{
+	list-style: none;
+	display: inline-block;
+	width: 200px;
+
+	}
+.names a{
+	display: block;
+	padding-left: 45px;
+	text-decoration: none;
+	font-style: italic;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    color: gray;
+}
+ 
+ .names a:hover {
+ 	position: relative;
+ 	bottom: 8px;
+ }
+ .tour {
+ 	background-color: black;
+ }
+ .tour h1{
+ 	color: white;
+ 	padding: 60px 0px 0px 0px;
+    text-align: center;
+    font-family: "Segoe UI",Arial,sans-serif;
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 0px;
+    font-size: 30px;
+
+
+ }
+ .tour h2{
+ 	padding-top: 15px;
+ 	color: lightgray;
+ 	text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    margin: 0;
+ }
+
+ .tourdates img {
+ 	width: 245.328px;
+ 	height: 183.984px;
+ }
+ .tourdates ul{
+ 	list-style: none;
+ 	position: relative;
+ 	padding-top: 40px;
+ 	margin: 0px
+ }
+ .tourdates li {
+ 	display: inline;
+ 	width: 183.984px;
+ 	height:385px;
+ 	padding-left: 15px;
+
+ }
+.tourdates {
+	background-color: black;
+}
+ .details h1 {
+ 	color: black;
+ 	text-align: center;
+ 	display: block;
+ 	padding-top: 10px;
+
+    font-family: "Segoe UI",Arial,sans-serif;
+    letter-spacing: 4px;
+    font-weight: 400;
+    
+
+ }
+  .details li {
+display: inline-block;
+ 	height: 230px;
+ 	width: 245.31px;
+ }
+
+ .details  h2{
+ 	padding-top: 10px;
+ 	color: darkgray;
+ 	text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    margin: 0;
+ }
+ .details li:nth-child(2) {
+ 	margin-left: 49.5px;
+ }
+ .details li:nth-child(3) {
+ 	margin-left: 48px;
+ }
+  .details ul {
+ 	height: 300px;
+
+ }
+ .details button {
+ 	 border: none;
+    display: inline-block;
+    outline: 0;
+    text-align: center;
+    background-color: black;
+    color: grey;
+    height: 30px;
+    position: relative;
+    left:100px;
+ }
+ .details p {
+ 	display: block;
+ 	width: 210px;
+ 	padding-left: 15px;
+ 	padding-top: 20px;
+ }
+ .details {
+ 	background-color: black;
+ 	height: 300px;
+ }
+ .agrid{
+ 	background-color: #f1f1f1;
+ 	width: 245.31px;
+    margin-left: 35px;
+ 	display: inline;
+ 	float: left;
+ 	position: relative;
+ 	left: 10px;
+
+ }
+ 
+.contact h1{
+	padding: 30px 0px 0px 0px;
+    text-align: center;
+    font-family: "Segoe UI",Arial,sans-serif;
+    letter-spacing: 4px;
+    font-weight: 400;
+    margin: 0px;
+    font-size: 30px;
+}
+.contact h2 {
+	padding-top: 20px;
+ 	color: lightgray;
+ 	text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+.cont h1{
+	padding: 10px 0px 0px 20px;
+    text-align: left;
+	font-family: "Segoe UI",Arial,sans-serif;
+    letter-spacing: 4px;
+    font-weight: 400;
+    margin: 0px;
+    font-size: 20px;
+    width: 395px;
+
+
+}
+.cont {
+	padding-top: 30px;
+	float: left;
+	width: 395px;
+
+}
+.for{
+	padding-top: 30px;
+	width: 384px;
+	height: 158px;
+	float: right;
+}
+
+.for input:nth-child(1){
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.for input:nth-child(2){
+  padding: 10px;
+  width: 145px;
+
+}
+.for input:nth-child(3){
+  padding: 10px;
+  width: 150px;
+}
+.for button{
+	border: none;
+    display: inline-block;
+    outline: 0;
+    text-align: center;
+    background-color: black;
+    color: grey;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    top: 35px;
+    left: 200px;
+
+
+}
+
+.footer  {
+	height: 50px;
+	background-color: #f1f1f1;
+	clear: both;
+	
+	overflow: hidden; 
+	}
+.footer ul {
+	float: right;
+	padding-top: 15px;
+	padding-right: 15px;
+}
+.footer li {
+	list-style: none;
+	display: inline-block;
+
+}
+.footer a {
+	text-decoration: none;
+}
+.contact {
+	height: 400px;
+}
+button:hover {
+background-color: grey;
+color: white;
+cursor: pointer;
+}
+.footer li:nth-child(8){
+    padding-left: 150px;
+}
+
