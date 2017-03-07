@@ -1,0 +1,205 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+    
+    #nav a{
+      height: 52px;
+
+
+      color:  white;
+      
+   }
+
+    #navbar {
+      background-color: black;
+   }
+   #nav a:hover{
+      
+      color: yellow;
+
+   }
+   
+   
+   #searchinput{
+      width: 200px;
+   }
+   #acc a{
+      height: 30px;
+   }
+      #active1 {
+    }
+   
+#nava li:nth-child(1) a {
+      color: yellow;
+
+}
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#mzcarousel .item {
+   height: 500px;
+}
+#slide1{
+   background: url(imga.jpg) top left no-repeat;
+}
+#slide2{
+   background: url(imgb.png) top left no-repeat;
+}
+
+#slide3{
+   background: url(imgc.jpg) top left no-repeat;
+}
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+footer ul {
+   
+   padding-top: 40px;
+}
+footer ul li {
+   float: right;
+   padding-left: 20px;
+}
+#r1{
+   height: 133px;
+   width: 100%;
+   background: url(Reynolds.jpg) no-repeat;
+   padding: inherit;
+   background-position: center;
+   margin-left: 5px;
+}
+#r2{
+   height: 133px;
+   width: 100%;
+   background: url(Wayne.jpg) no-repeat;
+   padding: inherit;
+   background-position: center;
+}
+#r3{
+   height: 133px;
+   width: 100%;
+   background: url(ben.jpg) no-repeat;
+   padding: inherit;
+   background-position: center;
+}
+#r4{
+   height: 133px;
+   width: 100%;
+   background: url(Daniel.jpg) no-repeat;
+   padding: inherit;
+   background-position: center;
+}
+#c1{
+   height: 250px;
+   width: 100%;
+   background: url(newyork.jpg) no-repeat;
+   padding: inherit;
+   background-position: center;
+   margin: 0 0 0 1px;
+}
+#c2{
+   height: 250px;
+   width: 100%;
+   background: url(paris.jpg) no-repeat;
+   padding: inherit;
+   background-position: center;
+   margin: 0 0 0 1px;
+}
+#c3{
+   height: 250px;
+   width: 100%;
+   background: url(sanfran.jpg) no-repeat;
+   padding: inherit;
+   background-position: center;
+   margin: 0 0 0 1px;
+}
+#f {
+   text-align: center;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+   .item{
+      height: 400px;
+   }
+#slide1{
+   background: url(imga.jpg) center no-repeat;
+}
+#slide2{
+   background: url(imgb.png) center no-repeat;
+}
+
+#slide3{
+   background: url(imgc.jpg) center no-repeat;
+}
+
+	
+}
+@media (max-width: 480px) {
+   @media (max-width: 768px) {
+   .item{
+      height: 310px;
+
+   }
+#slide1{
+   background: url(imga.jpg)  center no-repeat;
+}
+#slide2{
+   background: url(imgb.png) center no-repeat;
+}
+
+#slide3{
+   background: url(imgc.jpg) center no-repeat;
+}
+   
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	.item{
+      height: 500px;
+   }
+#slide1{
+   background: url(imga.jpg) top left no-repeat;
+}
+#slide2{
+   background: url(imgb.png) top left no-repeat;
+}
+
+#slide3{
+   background: url(imgc.jpg) top left no-repeat;
+}
+}
